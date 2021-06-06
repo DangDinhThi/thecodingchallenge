@@ -1,31 +1,15 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <map>
-using namespace std;
-
-
-int main() {
-    int n;
-string name;
-long num;
-cin >> n;
-cin.ignore();
-map <string, long> pBook;
-for (int i = 0; i < n; i++) {
-    cin >> name;
-    cin >> num;
-    pBook[name] = num;
-}
-while(cin >> name) {
-    if (pBook.find(name) != pBook.end()) {
-        cout << name << "=" << pBook.find(name)->second << endl;
-    } else {
-        cout << "Not found" << endl;
+#include<stdio.h>
+int factorial(int n){
+    if(n==1){
+        return 1;
+    }else{
+        return n*factorial(n-1);
     }
-} /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
-    return 0;
+}
+int main(){
+    int n,fact;
+    scanf("%d",&n);
+    fact=factorial(n);
+    printf("%d",fact);
 }
 
