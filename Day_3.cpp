@@ -17,7 +17,7 @@ int main()
     	printf("Weird");
 	}
 	else{
-		printf("Not Weird");
+		printf("NotWeird");
 		}
 		
     return 0;
