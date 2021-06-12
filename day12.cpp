@@ -20,10 +20,10 @@ int phanloai(SV a) {
     int n; 
     printf("\nnhap may lan diem :"); 
    	scanf("%d",&n); 
-	for(int i=0;i<n;i++){	 
+	for(int i=0; i<n; i++){	 
 		scanf("%d",&a.sc[i]); 
 	} 
-    for(int i=0;i<n;i++){ 
+    for(int i=0; i<n; i++){ 
     	s=s+a.sc[i]; //tinh tong diem 
 	} 
 		s=s/n; //tinh trung binh cong diem  
