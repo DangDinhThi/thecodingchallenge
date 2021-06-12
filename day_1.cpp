@@ -18,9 +18,9 @@ int main() {
     scanf("%lf", &dl);
     scanf("%*[\n]%[^\n]", sl);
     // Print the sum of both integer variables on a new line.
-    printf("%d", i+il);
+    printf("%d", i + il);
     // Print the sum of the double variables on a new line.
-     printf("\n%.1lf", d+dl);
+     printf("\n%.1lf", d + dl);
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
  	printf("\n%s%s", s, sl);
