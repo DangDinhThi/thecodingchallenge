@@ -14,16 +14,16 @@ int main() {
     double dl;
     char sl[100];
     // Read and save an integer, double, and String to your variables.
-   scanf("%d",&il);
-    scanf("%lf",&dl);
-    scanf("%*[\n]%[^\n]",sl);
+   	scanf("%d", &il);
+    scanf("%lf", &dl);
+    scanf("%*[\n]%[^\n]", sl);
     // Print the sum of both integer variables on a new line.
-    printf("%d",i+il);
+    printf("%d", i+il);
     // Print the sum of the double variables on a new line.
-     printf("\n%.1lf",d+dl);
+     printf("\n%.1lf", d+dl);
     // Concatenate and print the String variables on a new line
     // The 's' variable above should be printed first.
- printf("\n%s%s",s,sl);
+ 	printf("\n%s%s", s, sl);
     return 0;
 }
 
